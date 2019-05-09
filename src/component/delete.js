@@ -4,5 +4,5 @@ const query = `DELETE FROM contacts WHERE id=${args[0]}`;
 
 db.run(query, function (err) {
   if (err) throw err;
-  console.log('Successfully deleted!');
+  console.log('contact deleted!');
 });
